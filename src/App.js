@@ -1,6 +1,7 @@
 import NavBar from "./components/Navbar";
-import About from  "./components/About";
+import Home from  "./components/Home";
 import Contact from "./components/Contact";
+import About from "./components/About";
 import Skills from "./components/Skills";
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
     <section className="">
 
       <NavBar />
-      <About/>
+      <Home/>
       <Skills/>
+      <About/>
       <Contact/>
       </section>
     </div>

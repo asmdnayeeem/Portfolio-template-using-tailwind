@@ -16,20 +16,25 @@ const NavBar = () => {
   return (
 
     <>
-      <div className="w-full h-18  z-30  sm:fixed  shadow-sm  ">
+      <div className="w-full h-18 bg-[#fda521]  z-30  sm:fixed  shadow-sm  ">
          
         <ul>
           <div className="navbar z-50 bg-[#fda521] flex-row gap-10 text-lg font-light h-18 w-full  fixed justify-center flex  text-black p-4  shadow-sm sm:hidden sm:items-center sm:flex-col duration-600 pt-6">
 
           
           <li>
-            <Link className="hover:font-medium" to="#About" smooth>
+            <Link className="hover:font-medium" to="#Home" smooth>
               Home
             </Link>
           </li>
           <li>
             <Link className="hover:font-medium" to="#Skills" smooth>
               Skills
+            </Link>
+          </li>
+          <li>
+            <Link className="hover:font-medium" to="#About" smooth>
+              About
             </Link>
           </li>
        
